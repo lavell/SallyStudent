@@ -1,0 +1,100 @@
+    #pagewrap {
+    padding: 5px;
+    width: 960px;
+    margin: 20px auto;
+  }
+  /*STRUCTURE*/
+  
+  body {
+    font-size: 90%;
+    font-family: 'Kaushan Script', cursive;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-image: url("https://media.timeout.com/images/103042848/image.jpg")
+  }
+  
+  h1 {
+    font-size: 60px;
+  }
+  address a {
+    color: white;
+  }
+  nav address a:hover {
+    background-color: blue;
+  }
+h2 {
+  font-size: 25px;
+}
+  
+  nav {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: white;
+  }
+  
+  #left {
+    width: 290px;
+    float: left;
+    padding: 5px 15px;
+    display: inline;
+    text-align: center;
+  }
+  
+  #middle {
+    width: 294px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+    display: inline;
+    
+  }
+  
+  #sidebar {
+    width: 270px;
+    padding: 5px 15px;
+    float: right;
+    display: inline;
+  }
+  
+  #sidebar a:hover {
+    background-color: white;
+  }
+  
+  ul,
+  li {
+    list-style-type: none;
+    font-size: 30px;
+  }
+  
+  footer {
+    clear: both;
+    padding: 0 15px;
+    font-size: 30px;
+    background-color: white;
+    text-align: center;
+  }
+
+  p {
+    font-size: 30px;
+  }
+  
+  #col1, #col2, #col3 {
+    position: absolute;
+    width: 211;
+    text-align: center;
+  }
+  
+ 
+nav ul {
+    padding:12px 15px;
+    margin:0 auto;
+    text-align: right;
+    overflow:hidden;
+}
